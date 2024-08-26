@@ -1,0 +1,11 @@
+<a id="endpoint" tabindex="-1" class="yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer" title="You" href="/feed/you">
+  <yt-icon id="icon" class="guide-icon style-scope ytd-mini-guide-entry-renderer"><!--css-build:shady--><!--css-build:shady--><span class="yt-icon-shape yt-spec-icon-shape"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path></svg></div></span></yt-icon>
+  <span class="title style-scope ytd-mini-guide-entry-renderer">You</span>
+  <tp-yt-paper-tooltip animation-delay="0" offset="4" position="right" class="style-scope ytd-mini-guide-entry-renderer" role="tooltip" tabindex="-1" hidden="" style="--paper-tooltip-delay-in: 0ms;"><!--css-build:shady--><div id="tooltip" class="style-scope tp-yt-paper-tooltip hidden" style-target="tooltip">
+  
+    You
+  
+</div>
+</tp-yt-paper-tooltip>
+  <yt-interaction class="style-scope ytd-mini-guide-entry-renderer"><!--css-build:shady--><!--css-build:shady--><div class="stroke style-scope yt-interaction"></div><div class="fill style-scope yt-interaction"></div></yt-interaction>
+</a>
