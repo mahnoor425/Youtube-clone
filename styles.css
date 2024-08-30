@@ -12,6 +12,10 @@ body{
 /* Header */
 
 header {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
     .side-navbar{
     display: flex;
     flex-direction: column;
@@ -55,10 +59,55 @@ header {
         background-color: rgb(39, 39, 39);
     }
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -20px;
+    width: 90%;
+    div
+    {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .input-div{
+            background-color: transparent;
+            padding: 8px 12px;
+            border-radius: 20px;
+            width: 20rem;
+            outline: 1px solid gray;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            input{
+                background-color: inherit;
+                border: none;
+                color: inherit;
+                width: 90%;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+        div .voice-icon{
+            cursor: pointer;
+        }
+    }
+    .user-account
+    {
+        img{
+            border-radius: 50%;
+        }
+        span {
+       
+            color: gray;
+        }
+    }
+}
 }
 
 
-
+/* Main section videos */
 
 
 
