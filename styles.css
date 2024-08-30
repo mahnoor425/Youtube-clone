@@ -11,13 +11,14 @@ body{
 
 /* Header */
 
-header .side-navbar{
+header {
+    .side-navbar{
     display: flex;
     flex-direction: column;
-     gap: 25px;
-    padding: 5px;
-    margin: 10px;
-    /* max-width: 0px; */
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px 4px;
     width: fit-content;
     div{
         font-size: 10px;
@@ -42,15 +43,19 @@ header .side-navbar{
         
     }
     .side-nav-items{
-        padding: 10px;
-        width: fit-content;
+        padding: 7px;
+        width: 4rem;
         border-radius: 8px;
+        display: inherit;
+        flex-direction: column;
+        align-items: inherit;
+        justify-content: inherit;
     }
     .side-nav-items:hover{
         background-color: rgb(39, 39, 39);
     }
 }
-
+}
 
 
 
